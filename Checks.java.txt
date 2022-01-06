@@ -1,0 +1,48 @@
+public class Checks{
+@RequestMapping(value = "/records/{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+@Timed
+public ResponseEntity < Record > get(@PathVariable Long id) {
+return log.debug("REST request to get record" + id);
+        public void M1()throws Exception{
+        logger.info("Throwing generic exception");
+    } 
+public void md() {
+		Properties prop = new Properties();
+		prop.load(new FileInputStream("config.properties"));
+		String password = prop.getProperty("password");
+		DriverManager.getConnection(url, usr, password);
+	}
+ public void missing() {
+        int points = 1;
+        switch (points) {
+            case 0:
+                result = new BigDecimal(INTEREST_RATE_AT_ZERO_POINTS);
+                break;
+
+            case 1:
+                result = new BigDecimal(INTEREST_RATE_AT_ONE_POINTS);
+                break;
+
+            case 2:
+                result = new BigDecimal(INTEREST_RATE_AT_TWO_POINTS);
+                break;
+        }
+ public Object clone(String accountnumber) throws
+            CloneNotSupportedException
+    {
+       logger.info("Use final keyward");
+    }
+public void method1(){
+
+        try
+        {
+            throw new UnsupportedOperationException();
+        }
+        catch (SQLException e)
+        {
+            e.printStackTrace();
+        }
+public void M1()throws Exception{
+        logger.info("Throwing generic exception");
+    }
+}
