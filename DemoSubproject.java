@@ -1,13 +1,19 @@
 
-public class DemoSubproject implements Cloneable{
+public class DemoSubproject {
 	public static void main(String[] args) {
 		System.out.println("");
+		
+		switch (points) {
+case 0:
+System.out.println("0");
+break;
+
+case 1:
+System.out.println("12");
+break;
+}
 	}
 	
 	
-public Object clone(String accountnumber) throws  //Flaw :cloneable() method that is not declared final
-CloneNotSupportedException
-{
-Object returnMe = new BankAccount(account number);
-}
+
 }
